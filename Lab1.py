@@ -68,20 +68,38 @@
 # a = int(input("Podaj liczbę od 1 do 7: "))
 # print(p(a,b))
 
-# Zadanie 10
-def s(x: str):
-    x = x.lower()
-    x = x.replace(" ","")
-    z = len(x)
-    y = 0
-    a = []
-    b = []
-    for k in range (0,z):
-        a.append(x[k])
-        b.append(x[-(k+1)])
-        if a[k] == b[k]: y = y + 1
-    if y == z: print("Wprowadzony tekst jest palindromem.")
-    else:
-        print("Wporwadzony tekst nie jest palindromem.")
-i = input("Wprowadź tekst: ")
-print(s(i))
+# Zadanie 10 v1
+# def s(x: str):
+#     x = x.lower()
+#     x = x.replace(" ","")
+#     a = [], b = []
+#     for k in range (0,len(x)):
+#         a.append(x[k])
+#         b.append(x[-(k+1)])
+#         if a[k] != b[k]:
+#             return False
+#     return True
+# i = input("Wprowadź tekst: ")
+# y = s(i)
+
+# if (y):
+#     print("Wprowadzony tekst jest palindromem.")
+# else:
+#     print("Wporwadzony tekst nie jest palindromem.")
+
+# # Zadanie 10 v2
+# def s(x:str):
+#     for i in range(0, int(len(x) / 2)):
+#         if x[i] != x[len(x) - i - 1]:
+#             return False
+#     return True
+#
+#
+# # main function
+# p = input("Wprowadź tekst: ")
+# y = s(p)
+#
+# if (y):
+#     print("Wprowadzony tekst jest palindromem.")
+# else:
+#     print("Wporwadzony tekst nie jest palindromem.")
