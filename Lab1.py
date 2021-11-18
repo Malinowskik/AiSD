@@ -78,10 +78,8 @@ def s(x: str):
     b = []
     for k in range (0,z):
         a.append(x[k])
-    for l in range (1,z+1):
-        b.append(x[-l])
-    for u in range (0,z):
-        if a[u] == b[u]: y = y + 1
+        b.append(x[-(k+1)])
+        if a[k] == b[k]: y = y + 1
     if y == z: print("Wprowadzony tekst jest palindromem.")
     else:
         print("Wporwadzony tekst nie jest palindromem.")
