@@ -93,12 +93,8 @@
 #         if x[i] != x[len(x) - i - 1]:
 #             return False
 #     return True
-#
-#
-# # main function
 # p = input("Wprowadź tekst: ")
 # y = s(p)
-#
 # if (y):
 #     print("Wprowadzony tekst jest palindromem.")
 # else:
