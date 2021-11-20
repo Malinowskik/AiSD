@@ -39,23 +39,23 @@ from random import shuffle
 # else:
 #     print('Hasło nie spełnia wymagań!')
 
-# Zadanie 3
-def l(a:int,b:int,c:int):
-    d = []
-    for i in range(b,c+1):
-        d.append(b)
-        b=b+1
-    for i in range (0, a):
-        random.shuffle(d)
-        print(d)
+# # Zadanie 3
+# def l(a:int,b:int,c:int):
+#     d = []
+#     for i in range(b,c+1):
+#         d.append(b)
+#         b=b+1
+#     for i in range (0, a):
+#         random.shuffle(d)
+#         print(d)
 
 
 
-x = int(input('Wprowadź liczbę zakładów: '))
-while (x<=0):
-    print('Błąd, podaj liczbę większą od 0')
-    x = int(input('Wprowadź liczbę zakładów: '))
+# x = int(input('Wprowadź liczbę zakładów: '))
+# while (x<=0):
+#     print('Błąd, podaj liczbę większą od 0')
+#     x = int(input('Wprowadź liczbę zakładów: '))
 
-y = int(input('Wprowadź początek przedziału: '))
-z = int(input('Wprowadź koniec przedziału: '))
-l(x,y,z,)
+# y = int(input('Wprowadź początek przedziału: '))
+# z = int(input('Wprowadź koniec przedziału: '))
+# l(x,y,z,)
